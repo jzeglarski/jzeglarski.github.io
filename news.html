@@ -1,0 +1,160 @@
+<!doctype html>
+
+<html>
+
+	<head>
+		<title>Studio ICD</title>
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:200,500,700,900|Open+Sans:300" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="main.css">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="script.js"></script>
+	</head>
+
+
+	<body onload="loadComplete()">
+		<header>
+
+			<div id="Title">
+				<p>Studio ICD</p>
+				<img id= "Logo" src="images/LogoSmall.png">
+			</div>
+
+			<nav>
+				<ul>
+					<li><a href="index.html">Featured</a></li>
+					<li><a href="apps.html">Apps</a></li>
+					<li><a href="about.html">About</a></li>
+					<li>News</li>
+				</ul>
+			</nav>
+		</header>
+
+		<div id="Wrapper">
+
+			<div class="titleSection">
+				<p>Updates</p>
+			</div>
+
+			<div class="appSection" id="ICDSection">
+				<div class="appTitle">
+					<img class= "sectionIcon" src="images/LogoSmall.png">
+					<h1>Our Name</h1>
+					<button onclick="hideShowSection('ICDSectionDetails')" id="ICDSectionButton">+</button>
+				</div>
+				
+				<div id="ICDSectionDetails">
+					<h2>Innovation</h2>
+					<p> 
+						ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+
+					<h2>Creation</h2>
+					<p> 
+						ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+
+					<h2>Design</h2>
+					<p> 
+						ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+				</div>
+			</div>
+
+			<div class="appSection" id="NTSection">
+				<div class="appTitle">
+					<img class= "appIcon" src="images/IconNT.png">
+					<h1>Nexus Tile</h1>
+					<button onclick="hideShowSection('NTSectionDetails')" id="NTSectionButton">+</button>
+				</div>
+
+				<div id="NTSectionDetails">
+					<img class= "appPhone" src="images/iPhoneNT.png">
+
+					<h2>Description</h2>
+					<p>Adventure is deep in the jungle. Precious jungle tiles have become incredibly valuable. The right tile mined at the right time can be worth a fortune. If you can mine enough of the right tiles, you can travel deeper into the jungle and discover new tiles. If too many of the wrong tiles build up, game over! 
+					<br />
+					<br />
+					Legend has it, the Nexus Tile can destroy everything in sight. With this stone who knows what you can accomplish. 
+					<br />
+					Good Luck.
+					<br />
+					<br />
+					<br />
+					~~
+					<br />
+					<br />
+					<br />
+					Nexus Tile is a puzzle game built around breaking tiles and completing challenges. If you can mine the correct tiles, you'll be able to unlock their powers and reach new heights. Challenge your friends... and your enemies with tiles that you discover. New tiles and levels are constantly emerging so keep coming back to discover them all.</p>
+
+					<a href="https://itunes.apple.com/us/app/nexus-tile/id1268868849?mt=8"><img class= "badge" src="images/badge.png" title="Download on the App Store" alt="Download on the App Store"></a>
+				</div>
+			</div>
+
+			<div class="appSection" id="LADSection">
+				<div class="appTitle">
+					<img class= "appIcon" src="images/IconLAD.png">
+					<h1>Loop & Dot</h1>
+					<button onclick="hideShowSection('LADSectionDetails')" id="LADSectionButton">+</button>
+				</div>
+				
+				<div id="LADSectionDetails">
+					<img class= "appPhone" src="images/iPhoneLAD.png">
+
+					<h2>Description</h2>
+					<p>Adventure is deep in the jungle. Precious jungle tiles have become incredibly valuable. The right tile mined at the right time can be worth a fortune. If you can mine enough of the right tiles, you can travel deeper into the jungle and discover new tiles. If too many of the wrong tiles build up, game over! 
+					<br />
+					<br />
+					Legend has it, the Nexus Tile can destroy everything in sight. With this stone who knows what you can accomplish. 
+					<br />
+					Good Luck.
+					<br />
+					<br />
+					<br />
+					~~
+					<br />
+					<br />
+					<br />
+					Nexus Tile is a puzzle game built around breaking tiles and completing challenges. If you can mine the correct tiles, you'll be able to unlock their powers and reach new heights. Challenge your friends... and your enemies with tiles that you discover. New tiles and levels are constantly emerging so keep coming back to discover them all.</p>
+
+					<a href="https://itunes.apple.com/us/app/nexus-tile/id1268868849?mt=8"><img class= "badge" src="images/badge.png" title="Download on the App Store" alt="Download on the App Store"></a>
+				</div>
+			</div>
+
+			<div class="appSection" id="GearsSection">
+				<div class="appTitle">
+					<h1>Available 2018</h1>
+					<button onclick="hideShowSection('GearsSectionDetails')" id="GearsSectionButton">+</button>
+				</div>
+				
+				<div id="GearsSectionDetails">
+					<img class= "appPhone" src="images/iPhoneGears.png">
+
+					<h2>Description</h2>
+					<p>A new game to play with friends.</p>
+
+					<a href="https://itunes.apple.com/us/app/nexus-tile/id1268868849?mt=8"><img class= "badge" src="images/badge.png" title="Download on the App Store" alt="Download on the App Store"></a>
+				</div>
+			</div>
+		</div>
+
+		<footer>
+			
+		</footer>
+	</body>
+</html>

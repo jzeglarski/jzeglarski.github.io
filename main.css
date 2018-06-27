@@ -1,0 +1,292 @@
+body {
+  	margin: 0px;
+	padding: 0px;
+
+	font-family: 'Montserrat',sans-serif;
+	font-size: 20px;
+}
+
+p, h1, h2 {
+	margin: 0;
+	padding: 0;
+	color: #282828;
+}
+
+ul, ol {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	font-weight: 200;
+	line-height: auto;
+
+	height: 160px;
+	width: 100%;
+	
+	margin: 0px;
+	padding: auto;
+	border-width: 0px;
+
+	background-color: white;
+}
+
+nav {
+	display: block;
+
+	height: 40px;
+	line-height: 40px;
+
+	width: 100%;
+	max-width: 1200px;
+
+	margin: auto;
+	padding: auto;
+}
+
+nav li {
+	display: inline-block;
+	list-style: none;
+
+	padding: 0 0px;
+	width: 120px;
+
+	text-align: center;
+	font-weight: 400;
+}
+
+nav a {
+	display: inline;
+	list-style: none;
+	padding: 0 10px;
+
+	font-weight: 200;
+	text-decoration: none;
+	color: #282828;
+}
+
+nav a:hover {
+	color: #282828;
+	text-decoration: underline;
+	text-decoration-style: solid;
+}
+
+nav a:visited {
+	color: #282828;
+}
+
+footer {
+	height: 160px;
+
+	background-color: #F2F2F2;
+}
+
+#Title {
+	display: block;
+	position: relative;
+
+	height: 120px;
+	width: 100%;
+	max-width: 1200px;
+
+	margin: auto;
+	padding: auto;
+
+	border-width: 0 0 2px 0;
+	border-style: solid;
+	border-color: #282828;
+}
+
+#Title p {
+	font-size: 60px;
+	font-weight: 700;
+
+	padding: 0 10px;
+
+	position: absolute;
+	bottom: 0;
+}
+
+#Logo {
+	position: absolute;
+	bottom: 10px;
+	right: 0;
+
+	margin: 0 10px;
+
+	width: 60px;
+	height: 60px;
+}
+
+#Wrapper {
+	display: block;
+
+	width: 100%;
+	max-width: 800px;
+
+	margin: 40px auto;
+	padding: auto;
+
+	border-width: 0 0 2px 0;
+	border-style: solid;
+	border-color: #282828;
+}
+
+#FeatureWrapper {
+	display: block;
+
+	width: 100%;
+	max-width: 1200px;
+
+	margin: 40px auto;
+	padding: auto;
+
+	border-width: 0 0 2px 0;
+	border-style: solid;
+	border-color: #282828;
+}
+
+.titleSection {
+	padding: 40px 0;
+
+	font-size: 60px;
+	font-weight: 400;
+}
+
+.appSection {
+	margin: 0 0 40px 0;
+	padding: 20px 0;
+
+	overflow: auto;
+
+	background-color: #F2F2F2
+}
+
+.appTitle {
+	overflow: auto;
+}
+
+.appTitle button {
+	display: inline-block;
+	float: right;
+
+	margin: 0 20px;
+
+	width: 60px;
+	height: 60px;
+
+    color: #282828;
+	font-size: 60px;
+	line-height: 60px;
+	font-family: 'Montserrat',sans-serif;
+	font-weight: 800;
+
+	background-color: #F2F2F2;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.appTitle button:hover {
+	display: inline-block;
+	float: right;
+
+	margin: 0 20px;
+
+	width: 60px;
+	height: 60px;
+
+    color: #F2F2F2;
+	font-size: 60px;
+	line-height: 60px;
+	font-family: 'Montserrat',sans-serif;
+	font-weight: 800;
+
+	background-color: #282828;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.appPhone {
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.appIcon {
+	display: block;
+	float: left;
+
+	margin: 0 0 0 20px;
+
+	width: 60px;
+	height: 60px;
+	border-radius: 10px;
+}
+
+.appTitle h1 {
+	display: inline-block;
+	float: left;
+
+	padding: 0 0 0 20px;
+
+	font-weight: 800;
+	line-height: 60px;
+}
+
+.appSection h2 {
+	padding: 10px 20px;
+
+	font-size: 24px;
+
+	font-weight: 800;
+}
+
+.appSection p {
+	padding: 0 20px;
+
+	font-weight: 300;
+	font-family: 'Open Sans',sans-serif;
+}
+
+.badge {
+	display: block;
+
+	margin: 20px auto 0 auto;
+
+	width: 20%;
+}
+
+.sectionIcon {
+	display: block;
+	float: left;
+
+	margin: 0 0 0 20px;
+
+	width: 60px;
+	height: 60px;
+}
+
+.featureArt {
+	display: block;
+	width: calc(100% - 40px);
+
+	padding: 20px;
+	margin: 0 auto;
+	border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
